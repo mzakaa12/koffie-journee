@@ -1,0 +1,313 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;600;700;800;900&display=swap");
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Noto Sanss", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+nav a:hover {
+    font-weight: bold;
+}
+
+.profile header {
+    text-align: center;
+}
+
+footer {
+    padding: 20px;
+    color: white;
+    background-color: #dea057;
+    text-align: center;
+    font-weight: bold;
+}
+
+.featured-image {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.profile img {
+    width: 200px;
+}
+
+.card {
+    box-shadow: 0px 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    padding: 20px;
+    margin-top: 20px;
+    border: 2px solid #dea057;
+}
+
+.cap {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 900;
+    color: #dea057;
+}
+
+.cap-loc {
+    font-size: 36px;
+    text-transform: none;
+}
+
+.desc {
+    font-size: large;
+    font-weight: 400;
+    color: #ce9461;
+    text-align: center;
+}
+
+.card h1 {
+    text-align: center;
+    font-size: 28px;
+    font-weight: 900;
+    color: #ce9461;
+    text-shadow: 3px 5px #e0d8b0;
+}
+
+.garis-batas {
+    box-sizing: border-box;
+    background-color: #dea057;
+    width: 2.8cm;
+    height: 10px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.rounded-img {
+    border-radius: 30px;
+    max-width: 36rem;
+    margin-right: auto;
+    margin-left: auto;
+    background-position: center;
+    display: flex;
+    border: 10px solid white;
+    box-shadow: inset;
+}
+
+.card-side {
+    box-shadow: 0px 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    padding: 20px;
+    margin-top: 20px;
+    background-color: #dea057;
+    color: #fcffe7;
+    border: 6px solid white;
+}
+
+.judul {
+    padding: 60px;
+    background-color: #fcffe7;
+    text-align: center;
+    background-image: url(img/kopi5.jpg);
+    background-repeat: no-repeat;
+    -webkit-background-clip: border-box;
+}
+
+.judul h1 {
+    font-size: 60px;
+    font-weight: 900;
+    /* background-image: linear-gradient(45deg, #f3ec78, #af4261);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+    color: whitesmoke;
+    text-shadow: 5px 13px #dea057;
+}
+
+.judul p {
+    text-transform: uppercase;
+    color: #fcffe7;
+    font-size: large;
+    font-weight: 900;
+}
+
+nav li {
+    display: inline;
+    list-style-type: none;
+    margin-right: 20px;
+}
+
+nav {
+    background-color: #dea057;
+    padding: 5px;
+    position: sticky;
+    top: 0;
+    border-bottom: 2px inset #ce9461;
+}
+
+nav a {
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+main {
+    padding: 20px;
+    overflow: auto;
+}
+
+#content {
+    float: left;
+    width: 75%;
+}
+
+aside {
+    float: right;
+    width: 25%;
+    padding-left: 20px;
+}
+
+header {
+    display: inline;
+}
+
+.container {
+    display: flex;
+    width: 925px;
+    height: 450px;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+.box {
+    box-shadow: 0px 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    padding: 15px;
+    margin-top: 20px;
+    margin-right: auto;
+    border: 2px solid #dea057;
+    margin-left: auto;
+}
+
+.container .box img {
+    display: flex;
+    width: 300px;
+    flex-direction: column;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container .box p {
+    margin-top: 20px;
+    text-align: center;
+    font-size: large;
+    text-transform: uppercase;
+    color: #dea057;
+    font-weight: 700;
+}
+
+.box-2 {
+    box-shadow: 0px 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    padding: 15px;
+    margin-top: 20px;
+    border: 2px solid #dea057;
+}
+
+.container .box-2 img {
+    display: flex;
+    max-width: 400px;
+    flex-direction: column;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cust {
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.cust-text {
+    font-size: medium;
+    font-weight: 400;
+    text-transform: none;
+}
+
+.cap-about {
+    text-align: justify;
+    font-weight: 900;
+    color: #dea057;
+}
+
+.garis-batas-text {
+    box-sizing: border-box;
+    background-color: #e0d8b0;
+    width: 2.8cm;
+    height: 10px;
+}
+
+.about-float {
+    width: 185px;
+    float: right;
+    margin-left: 1cm;
+}
+
+.contact-float {
+    width: 375px;
+    float: left;
+    margin-left: 60px;
+    margin-top: 35px;
+    border-radius: 10px;
+}
+
+.garis-contact {
+    box-sizing: border-box;
+    background-color: #dea057;
+    width: 7.9cm;
+    height: 3px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.contact {
+    width: 300px;
+    float: left;
+    margin-left: 100px;
+}
+
+.contact h2 {
+    text-transform: uppercase;
+    color: #dea057;
+    font-size: medium;
+}
+
+.contact h3 {
+    text-transform: uppercase;
+    color: #e0d8b0;
+    font-size: small;
+}
+
+.contact p {
+    color: #e0d8b0;
+    font-size: small;
+}
+
+.card-cont {
+    box-shadow: 0px 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    padding: 20px;
+    margin-top: 20px;
+    border: 2px solid #dea057;
+    height: 550px;
+}
+
+.nama {
+    font-size: medium;
+}
+
+.side-pict {
+    margin: auto;
+
+}
